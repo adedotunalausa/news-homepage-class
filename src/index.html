@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="navbar-overlay"></div>
+  <main class="main-container">
+    <header>
+      <div class="nav-container">
+        <nav class="navbar">
+          <a href="#"><img class="nav-logo" src="../assets/images/logo.svg" alt="brand-logo"></a>
+
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">New</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Popular</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Trending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+          </ul>
+
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="top-container">
+      <div class="top-container-left">
+        <img class="hero-image" alt="hero-image">
+        <div class="top-container-left-inner">
+          <h1 class="hero-header width-450">The Bright Future of Web 3.0?</h1>
+          <div class="container width-450">
+            <p class="p-text dark-grayish-blue">
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+              But is it really fulfilling its promise?
+            </p>
+            <a href="#" class="btn read-more-btn">Read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container news-container width-450">
+        <h2>New</h2>
+        <div class="news-container-inner">
+          <h3>Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <hr>
+
+        <div class="news-container-inner">
+          <h3>The Downsides of AI Artistry</h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <hr>
+
+        <div class="news-container-inner">
+          <h3>Is VC Funding Drying Up?</h3>
+          <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="item-container-wrapper">
+      <div class="item-container width-450">
+        <img src="../assets/images/image-retro-pcs.jpg" alt="retro-pc-image">
+        <div>
+          <h2>01</h2>
+          <h4>Reviving Retro PCs</h4>
+          <p class="p-text">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+
+      <div class="item-container width-450">
+        <img src="../assets/images/image-top-laptops.jpg" alt="laptop-image">
+        <div>
+          <h2>02</h2>
+          <h4>Top 10 Laptops of 2022</h4>
+          <p class="p-text">Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+
+      <div class="item-container width-450">
+        <img src="../assets/images/image-gaming-growth.jpg" alt="gaming-image">
+        <div>
+          <h2>03</h2>
+          <h4>The Growth of Gaming</h4>
+          <p class="p-text">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
